@@ -8,5 +8,5 @@ metadata:
     app.kubernetes.io/name: petclinic
     app: petclinic
 spec:
-  tower_auth_secret: toweraccess
+  tower_auth_secret: ansible-tower-creds
   job_template_name: Demo Job Template
